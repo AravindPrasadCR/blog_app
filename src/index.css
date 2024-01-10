@@ -1,0 +1,48 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+.custom-no-outline{
+  outline: none;
+  border-right: 0px;
+}
+
+.element {
+  border-left: 1px solid #ddd; /* Specify the left border */
+  border-right: 1px solid #ddd; /* Specify the right border */
+}
+
+
+.home-compo{
+  margin-top: 150px;
+}
+
+
+input{
+  outline: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+
+
+
+
+@media (max-width:992px) {
+  .home-compo{
+    margin-top: 0;
+  }
+  
+}
+
+@media (max-width:778px) {
+  .home-compo{
+    margin: 0 auto;
+  }
+  
+}

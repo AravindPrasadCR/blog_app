@@ -1,0 +1,1 @@
+export const serverURL = "https://blog-app-server-6vfr.onrender.com"
